@@ -5,8 +5,8 @@ const app = express();
 
 app.use(express.json());
 
-app.use('/api/user', user); // Tambahkan "/" di awal path
-app.use('/api/todo', todo); // Tambahkan "/" di awal path
+app.use('/api/user', user);
+app.use('/api/todo', todo);
 
 const port = 3000;
 app.listen(port, () => {
