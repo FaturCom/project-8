@@ -1,21 +1,11 @@
-import './App.css'
-
-const Button = () => {
-  return (
-    <div>
-      <button className='bg-red-400 ml-5'>login</button>
-    </div>
-  )
-}
+import React from "react"
+import Login from "./pages/login"
+import Register from "./pages/register"
 
 function App() {
   return (
-      <div className='bg-blue-500 flex justify-center items-center'>
-        <div>
-          <p>hello world</p>
-        </div>
-
-        <Button></Button>
+      <div className='flex justify-center min-h-screen items-center'>
+        <Register></Register>
       </div>
   )
 }
