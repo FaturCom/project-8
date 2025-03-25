@@ -1,7 +1,7 @@
 import AuthLayout from "../components/Layouts/AuthLayouts";
 import FormRegister from "../components/Fragmen/FormRegister";
 
-const registerPage = () =>{
+const RegisterPage = () =>{
     return (
         <AuthLayout title="Register">
             <FormRegister />
@@ -9,4 +9,4 @@ const registerPage = () =>{
     )
 }
 
-export default registerPage
+export default RegisterPage
